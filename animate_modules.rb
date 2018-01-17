@@ -4,31 +4,6 @@ require 'fileutils'
 require 'tmpdir'
 
 
-# Program goal:
-# Every commit, run graphmod and log commit, graph (if new), then make gif of dot-rendered versions
-
-#!/bin/bash
-#
-# set -ex
-#
-# rm -f graph.dot graph.jpg
-#
-# https://github.com/yav/graphmod
-# find src -name '*.hs' | xargs graphmod -q > graph.dot
-#
-# brew install graphviz
-# brew info graphviz
-# /usr/local/Cellar/graphviz/2.40.1/bin/dot -Tjpg graph.dot -o graph.jpg
-
-
-# FileUtils.cd returns nil when passed a block
-def sane_cd(dir, &block)
-  FileUtils.cd dir
-  result = block.call dir
-  FileUtils.cd '..'
-  result
-end
-
 
 def check_out_and_graph_each(repo_shas, num_repo_shas, repo_dir)
   last_graph_name = nil
@@ -70,8 +45,6 @@ def convert_to_gif(num_repo_shas, goal_time_seconds=30)
 end
 
 
-
-
 def make_gif(to_clone, out_dir=`pwd`.chomp, out_filename=nil, temp_dir=nil)
   need_temp_dir = if temp_dir.nil?
     temp_dir = Dir.mktmpdir
@@ -83,11 +56,10 @@ def make_gif(to_clone, out_dir=`pwd`.chomp, out_filename=nil, temp_dir=nil)
 
       repo_temp_dir = Dir['*/'].first
 
-      repo_shas = sane_cd(repo_temp_dir) do
-        `git log --pretty=format:'%H'`.lines.map(&:chomp)
-      end
-
+      FileUtils.cd repo_temp_dir
+      repo_shas     = `git log --pretty=format:'%H'`.lines.map(&:chomp)
       num_repo_shas = repo_shas.length
+      FileUtils.cd '..'
 
       check_out_and_graph_each repo_shas, num_repo_shas, repo_temp_dir
 
@@ -124,8 +96,6 @@ unless system('which graphmod') && system('which dot')
   exit
 end
 
-
-# Arg parsing:
 
 args = ARGV.to_a
 
