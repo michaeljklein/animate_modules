@@ -49,16 +49,24 @@ ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-darwin15]
 # Usage
 
 ```bash
+# Without logging:
+ruby animate_modules.rb "https://github.com/michaeljklein/hackage-stats.git"
+
+# With logging:
+ruby animate_modules.rb "https://github.com/michaeljklein/hackage-stats.git" | tee -a animated_modules_https_github_com_michaeljklein_hackage_stats_git.log
+```
+
+```ruby
 animate_modules.rb [0] [1] [2] [3]
 
 or
 
 ruby animate_modules.rb [0] [1] [2] [3]
 
-[0] to_clone     (required)",
-[1] out_dir      (default is '.')",
-[2] out_filename (default is \"animated_modules_\#{to_clone.gsub(/\W+/, '_')}.gif\"",
-[3] temp_dir     (default is random-ish)"
+[0] to_clone     (required)
+[1] out_dir      (default is '.')
+[2] out_filename (default is "animated_modules_\#{to_clone.gsub(/\W+/, '_')}.gif"
+[3] temp_dir     (default is random-ish)
 ```
 
 
