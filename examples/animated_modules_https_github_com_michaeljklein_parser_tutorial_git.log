@@ -1,0 +1,51 @@
+Checking dependencies:
+/Users/michaelklein/.local/bin/graphmod
+/usr/local/bin/dot
+Args reference:
+
+  0. to_clone     (required)
+https://github.com/michaeljklein/parser-tutorial.git
+  1. out_dir      (default is '.')
+
+  2. out_filename (default is "animated_modules_#{to_clone.gsub(/W+/, '_')}.gif"
+
+  3. temp_dir     (default is random-ish)
+
+Checking out: 987c591100659c4b1c498019f5b21977b8078740, 0/10
+Building graph: animate_modules_987c591100659c4b1c498019f5b21977b8078740_0.dot
+rendering graph
+Checking out: 09acf2c30811863a7438192fd31c39eefd909c26, 1/10
+Building graph: animate_modules_09acf2c30811863a7438192fd31c39eefd909c26_1.dot
+graph was duplicate
+Checking out: ebd166a17c375044c047fb39d6739891e8706245, 2/10
+Building graph: animate_modules_ebd166a17c375044c047fb39d6739891e8706245_2.dot
+graph was duplicate
+Checking out: 5340e87947170e9fe2b54055d6f345299ea2acd0, 3/10
+Building graph: animate_modules_5340e87947170e9fe2b54055d6f345299ea2acd0_3.dot
+graph was duplicate
+Checking out: 4ea65a2c6fc3f6e6ebc8e63371617bc0cd50e8d5, 4/10
+Building graph: animate_modules_4ea65a2c6fc3f6e6ebc8e63371617bc0cd50e8d5_4.dot
+graph was duplicate
+Checking out: 1f5ccf253b25f6a7cbde368cf207919a2ed8753a, 5/10
+Building graph: animate_modules_1f5ccf253b25f6a7cbde368cf207919a2ed8753a_5.dot
+graph was duplicate
+Checking out: 7e658a6c5be05b0e0260d894949ce921f797beab, 6/10
+Building graph: animate_modules_7e658a6c5be05b0e0260d894949ce921f797beab_6.dot
+graph was duplicate
+Checking out: 4343530546bfd209d4c528abface6cdbdc49b0a4, 7/10
+Building graph: animate_modules_4343530546bfd209d4c528abface6cdbdc49b0a4_7.dot
+graph was duplicate
+Checking out: df93f2f6f41f07b056caa4e8eef3aac2454fe721, 8/10
+Building graph: animate_modules_df93f2f6f41f07b056caa4e8eef3aac2454fe721_8.dot
+graph was duplicate
+Checking out: bcd79bbe2db370cf262e9ef5f9c57c3a5afdcfcf, 9/10
+Building graph: animate_modules_bcd79bbe2db370cf262e9ef5f9c57c3a5afdcfcf_9.dot
+graph was duplicate
+Making the gif:
+Calculated a delay of 500 ms, with goal time of 5 s for the gif
+
+Note: even though there are 10 shas, there are only 1 unique graphs
+Result filename:
+animated_modules_https_github_com_michaeljklein_parser_tutorial_git.gif
+Copied results to:
+/Users/michaelklein/Desktop/flock/pneumatic/tmp/animated_modules_https_github_com_michaeljklein_parser_tutorial_git.gif

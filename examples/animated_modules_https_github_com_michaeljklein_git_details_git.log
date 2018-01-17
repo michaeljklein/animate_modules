@@ -1,0 +1,69 @@
+Checking dependencies:
+/Users/michaelklein/.local/bin/graphmod
+/usr/local/bin/dot
+Args reference:
+
+  0. to_clone     (required)
+https://github.com/michaeljklein/git-details.git
+  1. out_dir      (default is '.')
+
+  2. out_filename (default is "animated_modules_#{to_clone.gsub(/W+/, '_')}.gif"
+
+  3. temp_dir     (default is random-ish)
+
+Checking out: 59828c0724fdb06570e8054b62cd8006b5126958, 0/16
+Building graph: animate_modules_59828c0724fdb06570e8054b62cd8006b5126958_0.dot
+rendering graph
+Checking out: e401d827b8a7e0d9990a44fdd267066fe9403d8a, 1/16
+Building graph: animate_modules_e401d827b8a7e0d9990a44fdd267066fe9403d8a_1.dot
+rendering graph
+Checking out: 93b4bdb41585f5079101073f817d921b75f5bc53, 2/16
+Building graph: animate_modules_93b4bdb41585f5079101073f817d921b75f5bc53_2.dot
+graph was duplicate
+Checking out: e9fc7cac9950b488be83069b567f9ba97ae43af7, 3/16
+Building graph: animate_modules_e9fc7cac9950b488be83069b567f9ba97ae43af7_3.dot
+rendering graph
+Checking out: 32bcde34c8d0364a65c18dd0498fc6668a2bc521, 4/16
+Building graph: animate_modules_32bcde34c8d0364a65c18dd0498fc6668a2bc521_4.dot
+rendering graph
+Checking out: e2a262512363c6e05af3f309ea10a6843c606f2a, 5/16
+Building graph: animate_modules_e2a262512363c6e05af3f309ea10a6843c606f2a_5.dot
+rendering graph
+Checking out: af5a92822bea5b063988cf6ac2ff08794715c521, 6/16
+Building graph: animate_modules_af5a92822bea5b063988cf6ac2ff08794715c521_6.dot
+graph was duplicate
+Checking out: 0ef6a74b07738c2a31a5ac88b6c17bb9e4a4e485, 7/16
+Building graph: animate_modules_0ef6a74b07738c2a31a5ac88b6c17bb9e4a4e485_7.dot
+rendering graph
+Checking out: b9520255181e5a59797d783b87d5717416ec8fdc, 8/16
+Building graph: animate_modules_b9520255181e5a59797d783b87d5717416ec8fdc_8.dot
+rendering graph
+Checking out: 3ff4b732bb5e7e32456fad2d3dab6cdf59da40f6, 9/16
+Building graph: animate_modules_3ff4b732bb5e7e32456fad2d3dab6cdf59da40f6_9.dot
+rendering graph
+Checking out: 8ec335ea1cf3cec84aa59ab389d1c20d072cc9fa, 10/16
+Building graph: animate_modules_8ec335ea1cf3cec84aa59ab389d1c20d072cc9fa_10.dot
+rendering graph
+Checking out: dda660e5ccab059c1a270950402721d9f90f375e, 11/16
+Building graph: animate_modules_dda660e5ccab059c1a270950402721d9f90f375e_11.dot
+graph was duplicate
+Checking out: bbaa33c944d9b1061d7d7a72f4b4250b294673d6, 12/16
+Building graph: animate_modules_bbaa33c944d9b1061d7d7a72f4b4250b294673d6_12.dot
+rendering graph
+Checking out: 14dce1e201ad015480e3d7d11ebf6ec116dd8227, 13/16
+Building graph: animate_modules_14dce1e201ad015480e3d7d11ebf6ec116dd8227_13.dot
+graph was duplicate
+Checking out: 79be6a08c0045c25536c409c51fd84d2c5eabca8, 14/16
+Building graph: animate_modules_79be6a08c0045c25536c409c51fd84d2c5eabca8_14.dot
+rendering graph
+Checking out: 24c7570765bb25f8a90ef3946e09845791bb9586, 15/16
+Building graph: animate_modules_24c7570765bb25f8a90ef3946e09845791bb9586_15.dot
+rendering graph
+Making the gif:
+Calculated a delay of 312 ms, with goal time of 5 s for the gif
+
+Note: even though there are 16 shas, there are only 12 unique graphs
+Result filename:
+animated_modules_https_github_com_michaeljklein_git_details_git.gif
+Copied results to:
+/Users/michaelklein/Desktop/flock/pneumatic/tmp/animated_modules_https_github_com_michaeljklein_git_details_git.gif

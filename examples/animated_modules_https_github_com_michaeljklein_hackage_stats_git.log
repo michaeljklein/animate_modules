@@ -1,0 +1,135 @@
+Checking dependencies:
+/Users/michaelklein/.local/bin/graphmod
+/usr/local/bin/dot
+Args reference:
+
+  0. to_clone     (required)
+https://github.com/michaeljklein/hackage-stats.git
+  1. out_dir      (default is '.')
+
+  2. out_filename (default is "animated_modules_#{to_clone.gsub(/W+/, '_')}.gif"
+
+  3. temp_dir     (default is random-ish)
+
+Checking out: d6b7abcad0dacab74d1fbfabcc7bd2428f129e9b, 0/38
+Building graph: animate_modules_d6b7abcad0dacab74d1fbfabcc7bd2428f129e9b_0.dot
+rendering graph
+Checking out: b568e2bfadf32eef9637e8226f13a14fbe9de51d, 1/38
+Building graph: animate_modules_b568e2bfadf32eef9637e8226f13a14fbe9de51d_1.dot
+graph was duplicate
+Checking out: 542f922b7b1ebff33c5c79093957ebfb9d34606c, 2/38
+Building graph: animate_modules_542f922b7b1ebff33c5c79093957ebfb9d34606c_2.dot
+graph was duplicate
+Checking out: 3e4f54c128c8c127cf7c6a6ac198dc0bbcbf7b9c, 3/38
+Building graph: animate_modules_3e4f54c128c8c127cf7c6a6ac198dc0bbcbf7b9c_3.dot
+graph was duplicate
+Checking out: d32bbf353735a023e61740eafbcddcb1d7fca229, 4/38
+Building graph: animate_modules_d32bbf353735a023e61740eafbcddcb1d7fca229_4.dot
+graph was duplicate
+Checking out: 842cb87eeb661be7a3bed19091326bf79f8ae754, 5/38
+Building graph: animate_modules_842cb87eeb661be7a3bed19091326bf79f8ae754_5.dot
+graph was duplicate
+Checking out: 055cfa17cdac9da362324e73d6a43854735e43c8, 6/38
+Building graph: animate_modules_055cfa17cdac9da362324e73d6a43854735e43c8_6.dot
+graph was duplicate
+Checking out: 0b32f00e7d8d3722902601370ee42ac347fe76bd, 7/38
+Building graph: animate_modules_0b32f00e7d8d3722902601370ee42ac347fe76bd_7.dot
+graph was duplicate
+Checking out: 3b8ed9af5fe92d96a8546f80c615e9be1f404498, 8/38
+Building graph: animate_modules_3b8ed9af5fe92d96a8546f80c615e9be1f404498_8.dot
+graph was duplicate
+Checking out: c7d17920698bce059f3b160076ee1079fc9f38b8, 9/38
+Building graph: animate_modules_c7d17920698bce059f3b160076ee1079fc9f38b8_9.dot
+graph was duplicate
+Checking out: d19fd892c377aa1797535f8ece122139ecd4fa4a, 10/38
+Building graph: animate_modules_d19fd892c377aa1797535f8ece122139ecd4fa4a_10.dot
+graph was duplicate
+Checking out: 9906b971f541688ef3d369465538ab1968b62ebe, 11/38
+Building graph: animate_modules_9906b971f541688ef3d369465538ab1968b62ebe_11.dot
+graph was duplicate
+Checking out: be1bb93206e73005c222aa6a1a3c64168d649549, 12/38
+Building graph: animate_modules_be1bb93206e73005c222aa6a1a3c64168d649549_12.dot
+graph was duplicate
+Checking out: a306ffbd19455235c49260b534681f66a51b7533, 13/38
+Building graph: animate_modules_a306ffbd19455235c49260b534681f66a51b7533_13.dot
+graph was duplicate
+Checking out: 965a9d947cdc16fbce599af265358365ca8f7a23, 14/38
+Building graph: animate_modules_965a9d947cdc16fbce599af265358365ca8f7a23_14.dot
+graph was duplicate
+Checking out: d3641e971b432c47c9893334e6395740aabe813e, 15/38
+Building graph: animate_modules_d3641e971b432c47c9893334e6395740aabe813e_15.dot
+graph was duplicate
+Checking out: 2b164cb12dbaf218c698719282673d33a9c348b9, 16/38
+Building graph: animate_modules_2b164cb12dbaf218c698719282673d33a9c348b9_16.dot
+graph was duplicate
+Checking out: e4da8fab5f77a91a25cc28e69a6fc852903c51e0, 17/38
+Building graph: animate_modules_e4da8fab5f77a91a25cc28e69a6fc852903c51e0_17.dot
+graph was duplicate
+Checking out: 5cba3158d6d50b06efe9deace9fbeeb5ffede946, 18/38
+Building graph: animate_modules_5cba3158d6d50b06efe9deace9fbeeb5ffede946_18.dot
+graph was duplicate
+Checking out: 74030227cce394671c61c55a8991e8b176220eba, 19/38
+Building graph: animate_modules_74030227cce394671c61c55a8991e8b176220eba_19.dot
+graph was duplicate
+Checking out: 604685fe0274946e278f1b51b415366cd76e4685, 20/38
+Building graph: animate_modules_604685fe0274946e278f1b51b415366cd76e4685_20.dot
+graph was duplicate
+Checking out: c8af6621595b1858e54dd101b9bd83f6b2605f07, 21/38
+Building graph: animate_modules_c8af6621595b1858e54dd101b9bd83f6b2605f07_21.dot
+graph was duplicate
+Checking out: b12607b5f23e0e3111d835760c80763fba088531, 22/38
+Building graph: animate_modules_b12607b5f23e0e3111d835760c80763fba088531_22.dot
+graph was duplicate
+Checking out: 13d68a0eb1f3ee9c1ece923f51365de9db6cd9ad, 23/38
+Building graph: animate_modules_13d68a0eb1f3ee9c1ece923f51365de9db6cd9ad_23.dot
+graph was duplicate
+Checking out: 67650f417f4f2f9ad9f9e6aa28ce7c2a6513ca7d, 24/38
+Building graph: animate_modules_67650f417f4f2f9ad9f9e6aa28ce7c2a6513ca7d_24.dot
+rendering graph
+Checking out: 15edfcd9885df6f8bbaac62231d5b69d33354c77, 25/38
+Building graph: animate_modules_15edfcd9885df6f8bbaac62231d5b69d33354c77_25.dot
+graph was duplicate
+Checking out: 742d7d22cc0da6200be850c40cae019932624415, 26/38
+Building graph: animate_modules_742d7d22cc0da6200be850c40cae019932624415_26.dot
+graph was duplicate
+Checking out: 3ca1fcace53edff55beeb797fba97c911d740759, 27/38
+Building graph: animate_modules_3ca1fcace53edff55beeb797fba97c911d740759_27.dot
+graph was duplicate
+Checking out: 1d209d9e86b0eb5053693173a6656bebd14e99cc, 28/38
+Building graph: animate_modules_1d209d9e86b0eb5053693173a6656bebd14e99cc_28.dot
+graph was duplicate
+Checking out: 02fe722b37bad29eef8c42eac8ca758990dab253, 29/38
+Building graph: animate_modules_02fe722b37bad29eef8c42eac8ca758990dab253_29.dot
+graph was duplicate
+Checking out: 3607fd60aae16a5ea4ddb7b4e7fd7d7d044c9853, 30/38
+Building graph: animate_modules_3607fd60aae16a5ea4ddb7b4e7fd7d7d044c9853_30.dot
+graph was duplicate
+Checking out: a792c85a9f9cce0a5657cd86bb95e61eec3af8d0, 31/38
+Building graph: animate_modules_a792c85a9f9cce0a5657cd86bb95e61eec3af8d0_31.dot
+graph was duplicate
+Checking out: 7e63c3b2982ddb50c1edab46bb6eec432dda6ab1, 32/38
+Building graph: animate_modules_7e63c3b2982ddb50c1edab46bb6eec432dda6ab1_32.dot
+graph was duplicate
+Checking out: 806e566c056ec08844f6193ebdecc8e2b7e6d0c9, 33/38
+Building graph: animate_modules_806e566c056ec08844f6193ebdecc8e2b7e6d0c9_33.dot
+graph was duplicate
+Checking out: 7e786b3cebf9e2fb0daf274e5fc85a2a5c84e133, 34/38
+Building graph: animate_modules_7e786b3cebf9e2fb0daf274e5fc85a2a5c84e133_34.dot
+graph was duplicate
+Checking out: e566aedbadb14a94070236e541cc08e5f86a9a04, 35/38
+Building graph: animate_modules_e566aedbadb14a94070236e541cc08e5f86a9a04_35.dot
+graph was duplicate
+Checking out: e3ad0ccdebb95e274f657d24265e65b461f36ab6, 36/38
+Building graph: animate_modules_e3ad0ccdebb95e274f657d24265e65b461f36ab6_36.dot
+rendering graph
+Checking out: 538a91bc69c9b3b16dda63c8bca3fc8e5a61e828, 37/38
+Building graph: animate_modules_538a91bc69c9b3b16dda63c8bca3fc8e5a61e828_37.dot
+graph was duplicate
+Making the gif:
+Calculated a delay of 131 ms, with goal time of 5 s for the gif
+
+Note: even though there are 38 shas, there are only 3 unique graphs
+Result filename:
+animated_modules_https_github_com_michaeljklein_hackage_stats_git.gif
+Copied results to:
+/Users/michaelklein/Desktop/flock/pneumatic/tmp/animated_modules_https_github_com_michaeljklein_hackage_stats_git.gif

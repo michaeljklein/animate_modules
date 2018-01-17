@@ -1,0 +1,198 @@
+Checking dependencies:
+/Users/michaelklein/.local/bin/graphmod
+/usr/local/bin/dot
+Args reference:
+
+  0. to_clone     (required)
+https://github.com/michaeljklein/Equirecursive.git
+  1. out_dir      (default is '.')
+
+  2. out_filename (default is "animated_modules_#{to_clone.gsub(/W+/, '_')}.gif"
+
+  3. temp_dir     (default is random-ish)
+
+Checking out: 222659fbb92ad83286bef427692263b11fb234d9, 0/59
+Building graph: animate_modules_222659fbb92ad83286bef427692263b11fb234d9_0.dot
+rendering graph
+Checking out: fca757f21251592ec78dbaffcb5bfbf0be08baca, 1/59
+Building graph: animate_modules_fca757f21251592ec78dbaffcb5bfbf0be08baca_1.dot
+rendering graph
+Checking out: 09154591069d4d1749d883a567788c04ceaabca5, 2/59
+Building graph: animate_modules_09154591069d4d1749d883a567788c04ceaabca5_2.dot
+rendering graph
+Checking out: ba1f9d2c6934ae1c80e7bf672c0df0e6a5acbc73, 3/59
+Building graph: animate_modules_ba1f9d2c6934ae1c80e7bf672c0df0e6a5acbc73_3.dot
+graph was duplicate
+Checking out: 79236fe518647cd183ad97a1351f4073f22f0d9d, 4/59
+Building graph: animate_modules_79236fe518647cd183ad97a1351f4073f22f0d9d_4.dot
+graph was duplicate
+Checking out: a34b2ad7eb1e011c406397f947e7e60da7148456, 5/59
+Building graph: animate_modules_a34b2ad7eb1e011c406397f947e7e60da7148456_5.dot
+rendering graph
+Checking out: 2b873f3495814c0596c9089c795d92f68d5fc8ca, 6/59
+Building graph: animate_modules_2b873f3495814c0596c9089c795d92f68d5fc8ca_6.dot
+graph was duplicate
+Checking out: 7e146fea402a3e32e49c0dbeba8267f918460cfc, 7/59
+Building graph: animate_modules_7e146fea402a3e32e49c0dbeba8267f918460cfc_7.dot
+graph was duplicate
+Checking out: b2543eaf2d3bfec907821039edff09166c55ddc9, 8/59
+Building graph: animate_modules_b2543eaf2d3bfec907821039edff09166c55ddc9_8.dot
+rendering graph
+Checking out: 18fe5b03674590200360654c26ffa2c17985229e, 9/59
+Building graph: animate_modules_18fe5b03674590200360654c26ffa2c17985229e_9.dot
+graph was duplicate
+Checking out: a64f6f7a40247c5ac76d3ce65a4fcc8aac70867a, 10/59
+Building graph: animate_modules_a64f6f7a40247c5ac76d3ce65a4fcc8aac70867a_10.dot
+graph was duplicate
+Checking out: 04bc7d2a20e7ffea582db063aa66b222d048a0f4, 11/59
+Building graph: animate_modules_04bc7d2a20e7ffea582db063aa66b222d048a0f4_11.dot
+graph was duplicate
+Checking out: 1000f48b118003dc0fb1a38bb684fab5aee24902, 12/59
+Building graph: animate_modules_1000f48b118003dc0fb1a38bb684fab5aee24902_12.dot
+graph was duplicate
+Checking out: 4cca41d59e3f65fce6a17a7a7e3fda2589716299, 13/59
+Building graph: animate_modules_4cca41d59e3f65fce6a17a7a7e3fda2589716299_13.dot
+graph was duplicate
+Checking out: e61b41b93070c6cc6b2c2fbec74ec829cd26c086, 14/59
+Building graph: animate_modules_e61b41b93070c6cc6b2c2fbec74ec829cd26c086_14.dot
+graph was duplicate
+Checking out: 9b96085a0ff6ba06f3b62343a3b9bc36b631fad1, 15/59
+Building graph: animate_modules_9b96085a0ff6ba06f3b62343a3b9bc36b631fad1_15.dot
+graph was duplicate
+Checking out: 2ffc94c8f127ec48a049dc55676953c59f8311ef, 16/59
+Building graph: animate_modules_2ffc94c8f127ec48a049dc55676953c59f8311ef_16.dot
+rendering graph
+Checking out: f201d93fef6e7cbc254e717c707df83f08340e74, 17/59
+Building graph: animate_modules_f201d93fef6e7cbc254e717c707df83f08340e74_17.dot
+graph was duplicate
+Checking out: 3cacc12eb3a3c149d83c53f5b8d413cb121e1ae9, 18/59
+Building graph: animate_modules_3cacc12eb3a3c149d83c53f5b8d413cb121e1ae9_18.dot
+rendering graph
+Checking out: 8fdddf30c62485c3eb31e3fef65fd1a209fe67dd, 19/59
+Building graph: animate_modules_8fdddf30c62485c3eb31e3fef65fd1a209fe67dd_19.dot
+graph was duplicate
+Checking out: db3f019ec389e090761a91d51a60e7903e4b88ea, 20/59
+Building graph: animate_modules_db3f019ec389e090761a91d51a60e7903e4b88ea_20.dot
+graph was duplicate
+Checking out: 2fd6df15f6ad08c64f6436e8c3c89852b82918f2, 21/59
+Building graph: animate_modules_2fd6df15f6ad08c64f6436e8c3c89852b82918f2_21.dot
+graph was duplicate
+Checking out: e0eb37aec2198f699f97b3506d96120f2548201c, 22/59
+Building graph: animate_modules_e0eb37aec2198f699f97b3506d96120f2548201c_22.dot
+rendering graph
+Checking out: dbc4e457905daf91ab2ef670be17395330c52f52, 23/59
+Building graph: animate_modules_dbc4e457905daf91ab2ef670be17395330c52f52_23.dot
+rendering graph
+Checking out: 373d37fe35da07a4e93f2a63672b888488323538, 24/59
+Building graph: animate_modules_373d37fe35da07a4e93f2a63672b888488323538_24.dot
+rendering graph
+Checking out: 4206cc73c07f3f0e48fb7cc0e76b9eab6fca7e49, 25/59
+Building graph: animate_modules_4206cc73c07f3f0e48fb7cc0e76b9eab6fca7e49_25.dot
+graph was duplicate
+Checking out: ffddbf3e574aefe558b37c4a81491d10fd5b695c, 26/59
+Building graph: animate_modules_ffddbf3e574aefe558b37c4a81491d10fd5b695c_26.dot
+rendering graph
+Checking out: 61ac47f03b915d195d7662e64ce8147652926a60, 27/59
+Building graph: animate_modules_61ac47f03b915d195d7662e64ce8147652926a60_27.dot
+rendering graph
+Checking out: e53e2ad63c8ed151667d81356a57dd230b3f8761, 28/59
+Building graph: animate_modules_e53e2ad63c8ed151667d81356a57dd230b3f8761_28.dot
+graph was duplicate
+Checking out: aa1cb19fe1a1f09a61443cb762a9af72ed2ef607, 29/59
+Building graph: animate_modules_aa1cb19fe1a1f09a61443cb762a9af72ed2ef607_29.dot
+graph was duplicate
+Checking out: 87961537a6ea15b23089cee1b78d433b118a4fca, 30/59
+Building graph: animate_modules_87961537a6ea15b23089cee1b78d433b118a4fca_30.dot
+rendering graph
+Checking out: c360b4d8431701013141a8f79495a7a5377b03bf, 31/59
+Building graph: animate_modules_c360b4d8431701013141a8f79495a7a5377b03bf_31.dot
+rendering graph
+Checking out: 9aff78d16816f437a860c6a01d1532b7dccadb7a, 32/59
+Building graph: animate_modules_9aff78d16816f437a860c6a01d1532b7dccadb7a_32.dot
+rendering graph
+Checking out: 5ac843ceb97afcc3e41d22335c1f558fd9716aa6, 33/59
+Building graph: animate_modules_5ac843ceb97afcc3e41d22335c1f558fd9716aa6_33.dot
+rendering graph
+Checking out: 40616482d63a9b25bc3d82603599746b289b6145, 34/59
+Building graph: animate_modules_40616482d63a9b25bc3d82603599746b289b6145_34.dot
+graph was duplicate
+Checking out: 1f16235e77b01856b448026e56735705eed34aa4, 35/59
+Building graph: animate_modules_1f16235e77b01856b448026e56735705eed34aa4_35.dot
+graph was duplicate
+Checking out: 26b573198ab88441983a5aa2792a96515f9293bb, 36/59
+Building graph: animate_modules_26b573198ab88441983a5aa2792a96515f9293bb_36.dot
+graph was duplicate
+Checking out: 17f7e0a901ef9b03030a0d2e4f512f61b6224621, 37/59
+Building graph: animate_modules_17f7e0a901ef9b03030a0d2e4f512f61b6224621_37.dot
+rendering graph
+Checking out: 26e16e33566748c8ef4237b0e8af8deab848b83a, 38/59
+Building graph: animate_modules_26e16e33566748c8ef4237b0e8af8deab848b83a_38.dot
+graph was duplicate
+Checking out: 1c16c8ae2fb84487139c937da11fbec2f4d73d4d, 39/59
+Building graph: animate_modules_1c16c8ae2fb84487139c937da11fbec2f4d73d4d_39.dot
+rendering graph
+Checking out: a48192dbc815d99c5a87aa43e9c1a81db668b4d2, 40/59
+Building graph: animate_modules_a48192dbc815d99c5a87aa43e9c1a81db668b4d2_40.dot
+graph was duplicate
+Checking out: 31de610b940788aa9b3c0c779563c4717cac1dc1, 41/59
+Building graph: animate_modules_31de610b940788aa9b3c0c779563c4717cac1dc1_41.dot
+graph was duplicate
+Checking out: 92a9ca123e916884712eb527b0fc8b921c421cbc, 42/59
+Building graph: animate_modules_92a9ca123e916884712eb527b0fc8b921c421cbc_42.dot
+rendering graph
+Checking out: d570f08dd09973ebcce78b45e0c955c4915be604, 43/59
+Building graph: animate_modules_d570f08dd09973ebcce78b45e0c955c4915be604_43.dot
+rendering graph
+Checking out: 6ed3d4a07ce92848c4228595f973c1de6d3dae25, 44/59
+Building graph: animate_modules_6ed3d4a07ce92848c4228595f973c1de6d3dae25_44.dot
+graph was duplicate
+Checking out: 3935236a00f9ad2b0408fcd6a278ffd1017ef749, 45/59
+Building graph: animate_modules_3935236a00f9ad2b0408fcd6a278ffd1017ef749_45.dot
+graph was duplicate
+Checking out: 475fb1146fdb36632b0d56bc00eaac8ab1b96852, 46/59
+Building graph: animate_modules_475fb1146fdb36632b0d56bc00eaac8ab1b96852_46.dot
+graph was duplicate
+Checking out: acaf0ef290cc2a3bc85d838291b225cd37d21152, 47/59
+Building graph: animate_modules_acaf0ef290cc2a3bc85d838291b225cd37d21152_47.dot
+rendering graph
+Checking out: 7707df954bb3ccb92dfabfc76c9126d5f5228e8e, 48/59
+Building graph: animate_modules_7707df954bb3ccb92dfabfc76c9126d5f5228e8e_48.dot
+rendering graph
+Checking out: 2d114c5493f5bb59588bcbd343088ffbdd54e799, 49/59
+Building graph: animate_modules_2d114c5493f5bb59588bcbd343088ffbdd54e799_49.dot
+rendering graph
+Checking out: 9e59268c2e370e5401d5214b069544b0a8cbaad4, 50/59
+Building graph: animate_modules_9e59268c2e370e5401d5214b069544b0a8cbaad4_50.dot
+rendering graph
+Checking out: b48f8875b69f52ce9fc8fe1e5441c96968006cd6, 51/59
+Building graph: animate_modules_b48f8875b69f52ce9fc8fe1e5441c96968006cd6_51.dot
+rendering graph
+Checking out: 5ebfef5e7c4a9eecb7b333c6af20def247a41ec8, 52/59
+Building graph: animate_modules_5ebfef5e7c4a9eecb7b333c6af20def247a41ec8_52.dot
+rendering graph
+Checking out: 9734e317b3af4f9969d4e218333977dd315c2b9a, 53/59
+Building graph: animate_modules_9734e317b3af4f9969d4e218333977dd315c2b9a_53.dot
+graph was duplicate
+Checking out: d7510dbdfde1b60cc8a5c2a887e3013aefa52d24, 54/59
+Building graph: animate_modules_d7510dbdfde1b60cc8a5c2a887e3013aefa52d24_54.dot
+graph was duplicate
+Checking out: 08b778e16b5e3c28c0fb5b0a2eb48b07c6ae48e6, 55/59
+Building graph: animate_modules_08b778e16b5e3c28c0fb5b0a2eb48b07c6ae48e6_55.dot
+rendering graph
+Checking out: 0d55e1614c809291676488af7d1cacc0eadd7682, 56/59
+Building graph: animate_modules_0d55e1614c809291676488af7d1cacc0eadd7682_56.dot
+graph was duplicate
+Checking out: c1ead1d6bb1fe7b319d94eaaf5871f3ca9707210, 57/59
+Building graph: animate_modules_c1ead1d6bb1fe7b319d94eaaf5871f3ca9707210_57.dot
+graph was duplicate
+Checking out: 4abc3d2ae98bc489cf2b5eb088d4884758fae2c2, 58/59
+Building graph: animate_modules_4abc3d2ae98bc489cf2b5eb088d4884758fae2c2_58.dot
+graph was duplicate
+Making the gif:
+Calculated a delay of 84 ms, with goal time of 5 s for the gif
+
+Note: even though there are 59 shas, there are only 27 unique graphs
+Result filename:
+animated_modules_https_github_com_michaeljklein_Equirecursive_git.gif
+Copied results to:
+/Users/michaelklein/Desktop/flock/pneumatic/tmp/animated_modules_https_github_com_michaeljklein_Equirecursive_git.gif

@@ -1,0 +1,67 @@
+Checking dependencies:
+animate_modules.rb:116: warning: Insecure world writable dir /Users/michaelklein/Library/Haskell/bin in PATH, mode 040777
+/Users/michaelklein/.local/bin/graphmod
+/usr/local/bin/dot
+Args reference:
+
+  0. to_clone     (required)
+https://github.com/michaeljklein/prim-spoon.git
+  1. out_dir      (default is '.')
+
+  2. out_filename (default is "animated_modules_#{to_clone.gsub(/W+/, '_')}.gif"
+
+  3. temp_dir     (default is random-ish)
+
+Cloning into 'prim-spoon'...
+remote: Counting objects: 90, done.
+remote: Total 90 (delta 0), reused 0 (delta 0), pack-reused 90
+Unpacking objects: 100% (90/90), done.
+/Users/michaelklein/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/fileutils.rb:128: warning: conflicting chdir during another chdir block
+/Users/michaelklein/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/fileutils.rb:128: warning: conflicting chdir during another chdir block
+Checking out: 698b9b198056d330f8ba170d32cd648573fd6663, 0/13
+Building graph: animate_modules_698b9b198056d330f8ba170d32cd648573fd6663_0.dot
+rendering graph
+Checking out: 5208fb66f3da5333a8a22e5e470d53c7f638bc03, 1/13
+Building graph: animate_modules_5208fb66f3da5333a8a22e5e470d53c7f638bc03_1.dot
+graph was duplicate
+Checking out: 4bc1c42e496b407d0773198b7c16e06ce6f66b35, 2/13
+Building graph: animate_modules_4bc1c42e496b407d0773198b7c16e06ce6f66b35_2.dot
+graph was duplicate
+Checking out: c6b082bcf72fed2db488dfd4506f9923f742e743, 3/13
+Building graph: animate_modules_c6b082bcf72fed2db488dfd4506f9923f742e743_3.dot
+graph was duplicate
+Checking out: 3f9778e19ee89000d8cd0a1c164afb3589650c3b, 4/13
+Building graph: animate_modules_3f9778e19ee89000d8cd0a1c164afb3589650c3b_4.dot
+graph was duplicate
+Checking out: abae2c404d4d2c26e7fc9005cfb59a5699977c39, 5/13
+Building graph: animate_modules_abae2c404d4d2c26e7fc9005cfb59a5699977c39_5.dot
+graph was duplicate
+Checking out: 07c0fe75d1a621abb10dfb4fb27549b390e35b3b, 6/13
+Building graph: animate_modules_07c0fe75d1a621abb10dfb4fb27549b390e35b3b_6.dot
+graph was duplicate
+Checking out: c8bba65dc33f4c4cab53498002beddf673b674cc, 7/13
+Building graph: animate_modules_c8bba65dc33f4c4cab53498002beddf673b674cc_7.dot
+graph was duplicate
+Checking out: 3f207b6536fc30b2eadc09edd260e413c3e4ad79, 8/13
+Building graph: animate_modules_3f207b6536fc30b2eadc09edd260e413c3e4ad79_8.dot
+graph was duplicate
+Checking out: 04f4163c52231f1043123e6b9b66c76b95e3f05f, 9/13
+Building graph: animate_modules_04f4163c52231f1043123e6b9b66c76b95e3f05f_9.dot
+graph was duplicate
+Checking out: f80e7e8c9204dd245a3545b5216e42bc0be7af2e, 10/13
+Building graph: animate_modules_f80e7e8c9204dd245a3545b5216e42bc0be7af2e_10.dot
+graph was duplicate
+Checking out: e37b44908f08e912373c16a899516dc07fec363d, 11/13
+Building graph: animate_modules_e37b44908f08e912373c16a899516dc07fec363d_11.dot
+graph was duplicate
+Checking out: 4604bec7ae5042aac493522cdf33166c26aa285f, 12/13
+Building graph: animate_modules_4604bec7ae5042aac493522cdf33166c26aa285f_12.dot
+graph was duplicate
+Making the gif:
+Calculated a delay of 384 ms, with goal time of 5 s for the gif
+
+Note: even though there are 13 shas, there are only 1 unique graphs
+Result filename:
+animated_modules_https_github_com_michaeljklein_prim_spoon_git.gif
+Copied results to:
+/Users/michaelklein/Desktop/flock/pneumatic/tmp/animated_modules_https_github_com_michaeljklein_prim_spoon_git.gif
