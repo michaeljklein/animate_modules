@@ -7,7 +7,7 @@ Every commit in a repository, checkout the commit, run graphmod, render the grap
 # Requirements:
 
 
-## [graphmod`]((https://hackage.haskell.org/package/graphmod)
+## [graphmod](https://hackage.haskell.org/package/graphmod)
 
 ```bash
 
